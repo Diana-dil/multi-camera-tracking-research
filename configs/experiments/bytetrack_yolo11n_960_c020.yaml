@@ -1,0 +1,21 @@
+experiment_name: exp_004_yolo11n_960_c020_bytetrack
+camera_id: cam01
+
+model: yolo11n.pt
+tracker: bytetrack.yaml
+source: data/samples/people.mp4
+
+classes: [0]
+
+confidence_threshold: 0.20
+iou_threshold: 0.70
+image_size: 960
+
+device: auto
+
+save_video: true
+save_csv: true
+show_preview: false
+
+max_frames: 150
+output_root: results

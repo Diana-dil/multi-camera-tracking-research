@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multi-camera-tracking-research"
+version = "0.1.0"
+description = "Research baseline for person detection and multi-object tracking in overlapping-camera surveillance systems"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "ultralytics>=8.3",
+  "opencv-python>=4.10",
+  "numpy>=1.26",
+  "pandas>=2.2",
+  "PyYAML>=6.0",
+  "scipy>=1.13",
+  "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.2"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

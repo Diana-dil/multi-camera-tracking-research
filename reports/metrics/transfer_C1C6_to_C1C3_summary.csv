@@ -1,0 +1,2 @@
+﻿method,geometry_threshold_m,alpha,acceptance_cost,frames,common_gt_ids,detectable_gt_ids,pair_detection_coverage,predicted_pairs,true_positive,false_positive,false_negative,precision,recall,f1,conditional_accuracy,split,source
+fused,2.0,0.5,0.5,25,158,99,0.6265822784810127,152,92,60,66,0.6052631578947368,0.5822784810126582,0.5935483870967743,0.9292929292929293,test,fixed_parameters_without_retuning

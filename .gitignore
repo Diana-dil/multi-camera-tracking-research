@@ -1,0 +1,69 @@
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# PyCharm and editors
+.idea/
+.vscode/
+
+# Windows and macOS
+Thumbs.db
+.DS_Store
+
+# Secrets
+.env
+*.env
+*.key
+*.pem
+
+# Datasets
+data/raw/
+data/processed/
+data/annotations/
+data/samples/
+
+# Generated experiment results
+results/
+runs/
+outputs/
+
+# Model weights
+models/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# External cloned repositories
+external/
+
+# Large generated files
+*.npy
+*.npz
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Logs and caches
+*.log
+.cache/
+
+# Generated evaluation data
+data/evaluation/
+
+# Python packaging artifacts
+*.egg-info/
+build/
+dist/
